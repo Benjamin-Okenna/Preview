@@ -1,0 +1,75 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  background: hsl(47, 88%, 63%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+.blog-preview{
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 21.9rem;
+
+}
+button{
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 0;
+  border-radius: 4px;
+  
+}
+button:hover{
+  opacity: 0.5;
+}
+button:active{
+  opacity: 0.2;
+}
+p{
+  font-size: 1em;
+   
+}
+.description-preview{
+  color: hsl(0, 0%, 42%);
+  width: 100%;
+  max-width: 21.9rem;
+ 
+}
+main{
+  background: hsl(0, 0%, 100%);
+  padding: 1rem;
+  padding-right: 0.3;
+  border: 1.5px;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+ 
+ 
+  
+}
+.profile-blog{
+  width: 3.1rem;
+}
+.profile-name{
+  font-weight: 800;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.5rem;
+}
+.published-year{
+  color: hsl(0, 0%, 7%);
+}
+div{
+  width: 100%;
+  max-width: 21.9rem;
+
+}
